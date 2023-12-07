@@ -3,6 +3,13 @@ body {
     padding: 0;
     font-family: 'Barlow Condensed', cursive;
 }
+div {
+    display: block;
+}
+
+.init {
+    display: block;
+}
 
 .cab {
     text-align: center;
@@ -11,19 +18,19 @@ body {
 
 .titu {
     display: flex;
+    flex-direction: column;
     font-size: 30px;
     font-weight: 500;
-    flex-direction: column;
 }
 
 .titu h1{
+    margin-top: 10px;
     text-align: center;
     color: #ecf1f4;
     text-shadow: 0 0 7px #00f7ff;
 }
 
 h1 {
-    font-weight: normal;
     margin: 0 0 15px;
     display: block;
     font-size: 2em;
@@ -32,4 +39,59 @@ h1 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
+}
+
+.exp {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    box-sizing: border-box;
+}
+
+.exp h2 {
+    margin-top: 0;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+
+.exp h2 span{
+    color: #00f7ff;
+    text-shadow: 0 0 7px #000000;
+}
+
+h2 span {
+    font-size: 1.2em;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav img {
+    max-width:  100%;
+    height: 100px;
+    width: 100px;
+    padding: auto;
+}
+
+nav a{
+    align-items: center;
+    display: block;
+    padding: 8px 14px;
+    text-decoration: none;
+    color: #00f7ff;
+    font-size: 1.2em;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 2px;
+    transition: 0.6s;
+    margin-top: 3%;
+}
+
+a:-weckit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
 }

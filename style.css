@@ -3,6 +3,12 @@ body {
     padding: 0;
     font-family: 'Barlow Condensed', cursive;
 }
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    margin: 0 0 15px;
+}
+
 div {
     display: block;
 }
@@ -19,7 +25,7 @@ div {
 .titu {
     display: flex;
     flex-direction: column;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 500;
 }
 
@@ -41,7 +47,12 @@ h1 {
     font-weight: bold;
 }
 
-.exp {
+.cab p {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+p {
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
@@ -50,19 +61,25 @@ h1 {
     box-sizing: border-box;
 }
 
-.exp h2 {
-    margin-top: 0;
-    margin-bottom: 0px;
-    margin-left: auto;
-}
-
-.exp h2 span{
+.cab p span {
     color: #00f7ff;
     text-shadow: 0 0 7px #000000;
 }
 
-h2 span {
+p span{ 
+    margin-top: 0;
+    margin-bottom: 0px;
+    margin-left: auto;
     font-size: 1.2em;
+}
+
+.cursor {
+    display: none;
+    color: #030a0f;
+}
+
+.cursor.ativo {
+    display: inline;
 }
 
 nav {

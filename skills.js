@@ -136,20 +136,25 @@ const hardSkills = [
       "data-aos-delay": 850
     }
   ];
-  
+
   const imageContainer = document.querySelector(".hard-area");
-  
-    // Itera sobre a lista de imagens e cria elementos img
-    hardSkills.forEach((imageInfo) => {
-      const img = document.createElement("img");
-      img.setAttribute("align", "center");
-      img.setAttribute("alt", imageInfo.alt);
-      img.setAttribute("height", imageInfo.height);
-      img.setAttribute("width", imageInfo.width);
-      img.setAttribute("src", imageInfo.src);
-      img.setAttribute("data-aos", imageInfo["data-aos"]);
-      img.setAttribute("data-aos-delay", imageInfo["data-aos-delay"]);
-  
-      // Adiciona a imagem à div
-      imageContainer.appendChild(img);
-    });
+
+// Itera sobre a lista de imagens e cria elementos img
+hardSkills.forEach((imageInfo) => {
+  // Verifica se a imagem já existe na div
+  const existingImage = imageContainer.querySelector(`img[src="${imageInfo.src}"]`);
+
+  if (!existingImage) {
+    const img = document.createElement("img");
+    img.setAttribute("align", "center");
+    img.setAttribute("alt", imageInfo.alt);
+    img.setAttribute("height", imageInfo.height);
+    img.setAttribute("width", imageInfo.width);
+    img.setAttribute("src", imageInfo.src);
+    img.setAttribute("data-aos", imageInfo["data-aos"]);
+    img.setAttribute("data-aos-delay", imageInfo["data-aos-delay"]);
+
+    // Adiciona a imagem à div
+    imageContainer.appendChild(img);
+  }
+});

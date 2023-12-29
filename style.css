@@ -131,19 +131,19 @@ a:-weckit-any-link {
 
 .image img {
     justify-content: center;
-    height: 250px;
+    height: 350px;
     width: auto;
-    padding: 1px;
+    padding: 0px 10px 0px 10px; 
     position: relative;
 }
 
 .desc {
     display: flex;
     position: relative;
-    text-align: center;
-    border: 10px solid black;
+    text-align: justify;
     justify-content: right;
     padding: 1px;
+    font-size: x-large;
 }
 
 footer {

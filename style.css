@@ -91,22 +91,22 @@ nav {
 
 nav img {
     max-width:  100%;
-    height: 90px;
+    height: 70px;
     width: auto;
     padding: auto;
 }
 
-nav a{
+nav a {
     align-items: center;
     display: block;
-    padding: 8px 14px;
+    padding: 8px 8px;
     text-decoration: none;
     color: black;
     font-size: 1.2em;
     border-radius: 10px 10px 10px 10px;
     margin-left: 2px;
     transition: 0.6s;
-    margin-top: 3%;
+    margin-top: 1.5%;
 }
 
 a:-weckit-any-link {
@@ -123,6 +123,27 @@ a:-weckit-any-link {
 
 .menu img {
     float: right;
+}
+
+.ma {
+    display: flex;
+}
+
+.image img {
+    justify-content: center;
+    height: 250px;
+    width: auto;
+    padding: 1px;
+    position: relative;
+}
+
+.desc {
+    display: flex;
+    position: relative;
+    text-align: center;
+    border: 10px solid black;
+    justify-content: right;
+    padding: 1px;
 }
 
 footer {

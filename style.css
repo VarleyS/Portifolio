@@ -131,10 +131,11 @@ a:-weckit-any-link {
 
 .image img {
     justify-content: center;
-    height: 350px;
+    height: 450px;
     width: auto;
     padding: 0px 10px 0px 10px; 
     position: relative;
+    border-radius: 20%;
 }
 
 .desc {
@@ -143,7 +144,7 @@ a:-weckit-any-link {
     text-align: justify;
     justify-content: right;
     padding: 1px;
-    font-size: x-large;
+    font-size: 1.5em;
 }
 
 footer {

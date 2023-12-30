@@ -40,22 +40,6 @@ const hardSkills = [
       "data-aos-delay": 250
     },
     {
-      alt: "Sass",
-      height: 50,
-      width: 50,
-      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
-      "data-aos": "fade-down",
-      "data-aos-delay": 300
-    },
-    {
-      alt: "Bootstrap",
-      height: 50,
-      width: 50,
-      src: "https://logospng.org/download/bootstrap/bootstrap-256.png",
-      "data-aos": "fade-down",
-      "data-aos-delay": 350
-    },
-    {
       alt: "Git",
       height: 50,
       width: 50,
@@ -118,22 +102,6 @@ const hardSkills = [
       src: "https://cdn-icons-png.flaticon.com/512/875/875209.png",
       "data-aos": "fade-down",
       "data-aos-delay": 750
-    },
-    {
-      alt: "styled-component",
-      height: 45,
-      width: 45,
-      src: "https://blog.kakaocdn.net/dn/lkkIW/btqOc9QpJAQ/jR9kpyjrRSEW1RonVFrA7K/img.png",
-      "data-aos": "fade-down",
-      "data-aos-delay": 800
-    },
-    {
-      alt: "storybook",
-      height: 45,
-      width: 45,
-      src: "https://www.figma.com/community/plugin/1056265616080331589/icon",
-      "data-aos": "fade-down",
-      "data-aos-delay": 850
     }
   ];
 
